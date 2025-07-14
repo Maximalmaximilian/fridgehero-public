@@ -18,8 +18,8 @@ FridgeHero is a production-ready food management system built to demonstrate mod
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/FridgeHero.git
-cd FridgeHero
+git clone https://github.com/maximalmaximilian/fridgehero-public.git
+cd fridgehero-public
 
 # Mobile app (React Native)
 cd mobile

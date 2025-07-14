@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* FridgeHero Design System - Global Styles */
+@layer base {
+  html {
+    font-family: 'Inter', system-ui, sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-gray-50 text-charcoal antialiased;
+    font-feature-settings: 'cv03', 'cv04', 'cv11';
+  }
+  
+  /* Premium Typography Classes */
+  .text-h1 {
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 700;
+    @apply text-charcoal;
+  }
+  
+  .text-h2 {
+    font-family: 'Poppins', system-ui, sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    @apply text-charcoal;
+  }
+  
+  .text-h3 {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 600;
+    @apply text-charcoal;
+  }
+  
+  .text-body {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    @apply text-charcoal;
+  }
+  
+  .text-body-medium {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    @apply text-charcoal;
+  }
+  
+  .text-caption {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    @apply text-gray-600;
+  }
+  
+  .text-small {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    @apply text-gray-600;
+  }
+}
+
+@layer components {
+  /* Premium Button Styles */
+  .btn-primary {
+    @apply bg-primary-gradient text-white font-medium px-6 py-3 rounded-lg 
+           shadow-green hover:shadow-premium-lg transform hover:scale-105 
+           transition-all duration-200 ease-out;
+  }
+  
+  .btn-secondary {
+    @apply bg-white text-primary-600 font-medium px-6 py-3 rounded-lg 
+           border border-primary-200 hover:bg-primary-50 
+           transition-all duration-200 ease-out;
+  }
+  
+  .btn-warning {
+    @apply bg-warning-gradient text-white font-medium px-6 py-3 rounded-lg 
+           shadow-amber hover:shadow-premium-lg transform hover:scale-105 
+           transition-all duration-200 ease-out;
+  }
+  
+  /* Premium Input Styles */
+  .input-premium {
+    @apply bg-white border border-gray-200 rounded-lg px-4 py-3 
+           focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500 
+           transition-all duration-200 shadow-sm hover:shadow-premium;
+  }
+  
+  /* Card Styles */
+  .card-premium {
+    @apply premium-card p-6 transition-all duration-300 hover:shadow-premium-lg;
+  }
+  
+  .card-fresh {
+    @apply bg-card-fresh border border-primary-100 rounded-xl p-6 
+           shadow-green hover:shadow-premium-lg transition-all duration-300;
+  }
+  
+  .card-warning {
+    @apply bg-card-warning border border-warning-200 rounded-xl p-6 
+           shadow-amber hover:shadow-premium-lg transition-all duration-300;
+  }
+  
+  .card-expired {
+    @apply bg-card-expired border border-error-200 rounded-xl p-6 
+           shadow-red hover:shadow-premium-lg transition-all duration-300;
+  }
+  
+  /* Hero Widget Styles */
+  .hero-widget {
+    @apply rounded-2xl p-8 shadow-premium-xl border border-white/20 backdrop-blur-sm 
+           hover:shadow-premium-lg transition-all duration-500 cursor-pointer 
+           transform hover:scale-[1.02];
+  }
+  
+  .hero-morning {
+    @apply bg-hero-morning;
+  }
+  
+  .hero-evening {
+    @apply bg-hero-evening;
+  }
+  
+  /* Expiry Status Styles */
+  .status-fresh {
+    @apply text-fresh bg-primary-50 border-primary-200;
+  }
+  
+  .status-expiring {
+    @apply text-expiring bg-warning-50 border-warning-200;
+  }
+  
+  .status-expired {
+    @apply text-expired bg-error-50 border-error-200;
+  }
+  
+  /* Animation Utilities */
+  .animate-breathing {
+    animation: breathe 2s ease-in-out infinite;
+  }
+  
+  @keyframes breathe {
+    0%, 100% { transform: scale(1) translateY(0); }
+    50% { transform: scale(1.02) translateY(-2px); }
+  }
+  
+  /* Glass Morphism */
+  .glass-card {
+    @apply glass rounded-xl p-6 hover:bg-white/30 transition-all duration-300;
+  }
+}
+
+@layer utilities {
+  /* Contextual Color Utilities */
+  .text-expiry-fresh { @apply text-fresh; }
+  .text-expiry-warning { @apply text-expiring; }
+  .text-expiry-expired { @apply text-expired; }
+  
+  .bg-expiry-fresh { @apply bg-primary-50; }
+  .bg-expiry-warning { @apply bg-warning-50; }
+  .bg-expiry-expired { @apply bg-error-50; }
+  
+  /* Custom Scrollbar */
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(209 213 219) transparent;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background-color: rgb(209 213 219);
+    border-radius: 3px;
+  }
+  
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(156 163 175);
+  }
+}

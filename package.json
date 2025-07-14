@@ -1,0 +1,24 @@
+{
+  "name": "fridgehero",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "web": "pnpm --filter web dev",
+    "mobile": "pnpm --filter mobile start",
+    "build:web": "pnpm --filter web build",
+    "build:mobile": "pnpm --filter mobile build",
+    "test": "pnpm --filter '*' test",
+    "lint": "pnpm --filter '*' lint",
+    "clean": "pnpm -r exec rm -rf node_modules && rm -rf node_modules"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.5",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "events": "^3.3.0"
+  }
+}

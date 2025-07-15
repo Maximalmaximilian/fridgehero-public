@@ -14,6 +14,16 @@ FridgeHero is a production-ready food management system built to demonstrate mod
 
 **Key Technical Achievement**: This project showcases the effective use of AI-assisted development (Claude + Cursor IDE) to rapidly build a complex, production-ready application while maintaining high code quality and architectural principles.
 
+## 📱 Screenshots
+
+<div align="center">
+  <img src="screenshots/mobile/sc1" width="200" alt="Login Screen">
+  <img src="screenshots/mobile/sc2" width="200" alt="Home Dashboard">
+  <img src="screenshots/mobile/sc3" width="200" alt="Barcode Scanner">
+  <img src="screenshots/mobile/sc4" width="200" alt="Expiry Alerts">
+</div>
+
+
 ## 🚀 Quick Start
 
 ```bash

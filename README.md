@@ -17,10 +17,10 @@ FridgeHero is a production-ready food management system built to demonstrate mod
 ## 📱 Screenshots
 
 <div align="center">
-  <img src="mobile/screenshots/sc1" width="200" alt="Login Screen">
-  <img src="mobile/screenshots/sc2" width="200" alt="Home Dashboard">
-  <img src="mobile/screenshots/sc3" width="200" alt="Barcode Scanner">
-  <img src="mobile/screenshots/sc4" width="200" alt="Expiry Alerts">
+  <img src="mobile/screenshots/sc1.jpeg" width="200" alt="Login Screen">
+  <img src="mobile/screenshots/sc2.jpeg" width="200" alt="Home Dashboard">
+  <img src="mobile/screenshots/sc3.jpeg" width="200" alt="Barcode Scanner">
+  <img src="mobile/screenshots/sc4.jpeg" width="200" alt="Expiry Alerts">
 </div>
 
 

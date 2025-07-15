@@ -14,18 +14,22 @@ FridgeHero is a production-ready food management system built to demonstrate mod
 
 **Key Technical Achievement**: This project showcases the effective use of AI-assisted development (Claude + Cursor IDE) to rapidly build a complex, production-ready application while maintaining high code quality and architectural principles.
 
-## 📱 Screenshots
+## 📱 App Screenshots
+
+Here’s a quick selection of key mobile screens from the FridgeHero app.  
+➡️ **More screenshots are available in the `/screenshots/mobile` folder.**
 
 <div align="center">
-  <img src="mobile/screenshots/sc2.jpeg" width="200" alt="Welcome/ Login Screen">
-  <img src="mobile/screenshots/sc11.jpeg" width="200" alt="Dashboard1">
-  <img src="mobile/screenshots/sc19.jpeg" width="200" alt="Dashboard2">
-  <img src="mobile/screenshots/sc10.jpeg" width="200" alt="Search Food Database">
-  <img src="mobile/screenshots/sc13.jpeg" width="200" alt="My Items">
-  <img src="mobile/screenshots/sc14.jpeg" width="200" alt="Recipes">
-  <img src="mobile/screenshots/sc17.jpeg" width="200" alt="Shopping List">
-  <img src="mobile/screenshots/sc18.jpeg" width="200" alt="Waste">
+  <img src="mobile/screenshots/sc2.jpeg" width="200" alt="Welcome / Login Screen" style="margin: 10px;">
+  <img src="mobile/screenshots/sc11.jpeg" width="200" alt="Dashboard 1" style="margin: 10px;">
+  <img src="mobile/screenshots/sc19.jpeg" width="200" alt="Dashboard 2" style="margin: 10px;">
+  <img src="mobile/screenshots/sc10.jpeg" width="200" alt="Search Food Database" style="margin: 10px;">
+  <img src="mobile/screenshots/sc13.jpeg" width="200" alt="My Items" style="margin: 10px;">
+  <img src="mobile/screenshots/sc14.jpeg" width="200" alt="Recipes" style="margin: 10px;">
+  <img src="mobile/screenshots/sc17.jpeg" width="200" alt="Shopping List" style="margin: 10px;">
+  <img src="mobile/screenshots/sc18.jpeg" width="200" alt="Waste" style="margin: 10px;">
 </div>
+
 
 
 ## 🚀 Quick Start
